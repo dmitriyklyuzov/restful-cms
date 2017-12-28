@@ -2,9 +2,9 @@
 
 RESTful API customer management application built using [Slim Framework](https://slimframework.com), MySQL database, and PDO connection. Returns customers in JSON format.
 
-## Usage:
+## Usage
 
-Index - get all customers
+Get all customers
 ```
 GET /api/customers/
 ```
