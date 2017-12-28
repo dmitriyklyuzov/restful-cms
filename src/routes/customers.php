@@ -54,7 +54,7 @@
 			$db = new db();
 			$conn = $db->connect();
 			$stmt = $conn->query($sql);
-			$customer = $stmt->fetchAll(PDO::FETCH_OBJ);
+			$customer = $stmt->fetch(PDO::FETCH_OBJ);
 			$db = null;
 			$conn = null;
 
